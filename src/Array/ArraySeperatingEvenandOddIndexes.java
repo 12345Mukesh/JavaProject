@@ -20,43 +20,61 @@ public class ArraySeperatingEvenandOddIndexes
 	            arr[i]=sc.nextInt();
 	        }
 	        
-	        int m=0,n1=0;    //Declare the size of the array for even and odd elements
-	        for(int i=0;i<n;i++)   
-	        {
-	            if(arr[i]%2==0)
-	             m++;    //Increment even array size
-	             else 
-	             n1++;   //Increment odd array size
-	        }
-	        int even[]=new int[m];    //Declare an even array
-	        int odd[]=new int[n1];   //Declare an odd array
+//	        int m=0,n1=0;    //Declare the size of the array for even and odd elements
+//	        for(int i=0;i<n;i++)   
+//	        {
+//	            if(arr[i]%2==0)
+//	             m++;    //Increment even array size
+//	             else 
+//	             n1++;   //Increment odd array size
+//	        }
+//	        int even[]=new int[m];    //Declare an even array
+//	        int odd[]=new int[n1];   //Declare an odd array
+//	        
+//	        int k=0,t=0;
+//	        for(int i=0;i<n;i++)
+//	        {
+//	            if(arr[i]%2==0)
+//	            {
+//	              even[k]=arr[i];   //Initialize elements of even array
+//	              k++;
+//	            }
+//	            else
+//	            {
+//	                odd[t]=arr[i];  //Initialize elements of odd array
+//	                t++;
+//	            }
+//	        }
+//	        
+//	        System.out.println("The array with even elements...");
+//	        for(int i=0;i<m;i++)
+//	        {
+//	            System.out.print(even[i]+" ");   //Print Even Array
+//	        }
+//	        System.out.println("");
+//	        System.out.println("The array with odd elements...");
+//	        for(int i=0;i<n1;i++)
+//	        {
+//	            System.out.print(odd[i]+" ");    //Print Odd Array
+//	        }
 	        
-	        int k=0,t=0;
-	        for(int i=0;i<n;i++)
+	        
+	        for(int i=0;i<n;i++)     //Initialize array
 	        {
 	            if(arr[i]%2==0)
 	            {
-	              even[k]=arr[i];   //Initialize elements of even array
-	              k++;
+	               System.out.println("Even numbers are:"+arr[i]);	
 	            }
-	            else
+	        
+	            else if(arr[i]!=0)
 	            {
-	                odd[t]=arr[i];  //Initialize elements of odd array
-	                t++;
+	            	System.out.println("Odd numbers are:" +arr[i]);
 	            }
+	        
 	        }
 	        
-	        System.out.println("The array with even elements...");
-	        for(int i=0;i<m;i++)
-	        {
-	            System.out.print(even[i]+" ");   //Print Even Array
-	        }
-	        System.out.println("");
-	        System.out.println("The array with odd elements...");
-	        for(int i=0;i<n1;i++)
-	        {
-	            System.out.print(odd[i]+" ");    //Print Odd Array
-	        }
+	        
+	        
 	        
 	    }
 	}

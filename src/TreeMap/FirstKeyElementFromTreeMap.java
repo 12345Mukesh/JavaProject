@@ -6,7 +6,7 @@ import java.util.TreeMap;
 
 public class FirstKeyElementFromTreeMap {
 
-	public static <Emp> void main(String[] args) 
+	public static  void main(String[] args) 
 	{
 		//By using salary comparator (int comparison)
         TreeMap<Emp,String> trmap = new TreeMap<Emp, String>(new MySalaryCompr());

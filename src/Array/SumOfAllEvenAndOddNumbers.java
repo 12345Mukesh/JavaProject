@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-public class SumOfAllEvenIndexPositions {
+public class SumOfAllEvenAndOddNumbers {
 
 	public static void main(String[] args)
 	{
